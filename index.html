@@ -119,7 +119,7 @@
 
 @media only screen and (max-device-width: 600px) {
   .pagedjs_page {
-    width: 100%;
+    width: 100%!important;
     height: calc(100 / 23 * 29.7)!important;
     margin: calc(100 / 23 * 1vw) auto!important;
   }
@@ -128,9 +128,9 @@
     width: 90vw!important;
   }
 
-  .content p {
+  .content p, span {
     width: 70vw!important;
-    overflow-wrap: break-word;
+    word-break: break-word;
     line-height: 30px;
   }
 }
